@@ -12,7 +12,7 @@ const Journey = () => {
             </p>
             <Link
                 to="/courses"
-                className="group relative overflow-hidden w-auto bg-white text-black/70 border px-5 py-2 rounded-full text-base font-medium transition duration-300 ease-in-out shadow-md hover:shadow-lg mb-5 flex justify-center items-center gap-2"
+                className="group relative overflow-hidden w-auto bg-white text-black/70 border px-5 py-2 rounded-full text-sm font-medium transition duration-300 ease-in-out shadow-md hover:shadow-lg mb-5 flex justify-center items-center gap-2"
             >
                 <span className="relative z-10 transition-colors duration-300 group-hover:text-white">
                     Get Started

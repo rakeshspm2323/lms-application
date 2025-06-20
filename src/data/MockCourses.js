@@ -1,9 +1,27 @@
+import reactjs from "/src/assets/coursesImage/reactjs.jpeg"
+import javascript from "/src/assets/coursesImage/advance javascript.jpeg"
+import java from "/src/assets/coursesImage/java.jpeg"
+import docker from "/src/assets/coursesImage/docker.jpeg"
+import dataScience from "/src/assets/coursesImage/data science.jpeg"
+import nodejs from "/src/assets/coursesImage/node.jpeg"
+import python from "/src/assets/coursesImage/python.jpeg"
+import machineLearning from "/src/assets/coursesImage/machine learning.jpeg"
+import next from "/src/assets/coursesImage/next.jpeg"
+import typescript from "/src/assets/coursesImage/typescript.jpeg"
+import github from "/src/assets/coursesImage/github.jpeg"
+import design from "/src/assets/coursesImage/ui-ux.jpeg"
+import devops from "/src/assets/coursesImage/devops.jpeg"
+import frontednd from "/src/assets/coursesImage/frontend.jpeg"
+import graphql from "/src/assets/coursesImage/graph.jpeg"
+
+
+
 export const courses = [
   {
     id: "1",
     title: "React for Beginners",
     description: "Learn the fundamentals of React, the most popular frontend library. Build interactive UIs, manage state effectively, and get started with components.",
-    image: "src/assets/coursesImage/reactjs.jpeg", 
+    image: reactjs, 
     rating : 4, 
     price : 1499,
     lessons: [
@@ -19,7 +37,7 @@ export const courses = [
     id: "2",
     title: "Advanced JavaScript",
     description: "Master core concepts and advanced features of JavaScript including asynchronous programming, deep object manipulation, and patterns.",
-    image: "src/assets/coursesImage/advance javascript.jpeg", 
+    image: javascript, 
     rating : 4.5, 
     price : 1199,
     lessons: [
@@ -35,7 +53,7 @@ export const courses = [
     id: "3",
     title: "Java Essential Course",
     description: "Get started with Java programming from scratch. Ideal for beginners looking to enter the world of software development.",
-    image: "src/assets/coursesImage/java.jpeg", 
+    image: java, 
     rating : 4.8, 
     price : 2499,
     lessons: [
@@ -51,7 +69,7 @@ export const courses = [
     id: "4",
     title: "Docker Advanced Course",
     description: "A complete guide to Docker and containerization. Learn how to build, manage, and deploy containers at scale.",
-    image: "src/assets/coursesImage/docker.jpeg", 
+    image: docker, 
     rating : 4.1, 
     price : 2999,
     lessons: [
@@ -67,7 +85,7 @@ export const courses = [
     id: "5",
     title: "Data Science Hands-on Course",
     description: "Learn practical data science by working with real-world datasets. Build data pipelines and perform deep data analysis.",
-    image: "src/assets/coursesImage/data science.jpeg", 
+    image: dataScience, 
     rating : 4, 
     price : 1299,
     lessons: [
@@ -83,7 +101,7 @@ export const courses = [
     id: "6",
     title: "Node.js Mastery",
     description: "Learn server-side development with Node.js. Build APIs, manage databases, and deploy applications.",
-    image: "src/assets/coursesImage/node.jpeg", 
+    image: nodejs, 
     rating : 4.5, 
     price : 1299,
     lessons: [
@@ -99,7 +117,7 @@ export const courses = [
     id: "7",
     title: "Python for Data Analysis",
     description: "Use Python and popular libraries to clean, manipulate, and visualize data effectively for business and research.",
-    image: "src/assets/coursesImage/python.jpeg", 
+    image: python, 
     rating : 4, 
     price : 1499,
     lessons: [
@@ -115,7 +133,7 @@ export const courses = [
     id: "8",
     title: "Machine Learning Crash Course",
     description: "A fast-paced, hands-on introduction to ML. Build, train, and evaluate models using scikit-learn and Python.",
-    image: "src/assets/coursesImage/machine learning.jpeg", 
+    image: machineLearning, 
     rating : 3.8, 
     price : 999,
     lessons: [
@@ -131,7 +149,7 @@ export const courses = [
     id: "9",
     title: "Next.js Fullstack Course",
     description: "Create fullstack applications using Next.js with API routes, SSR, SSG, authentication, and deployment.",
-    image: "src/assets/coursesImage/next.jpeg", 
+    image: next, 
     rating : 4.5, 
     price : 1999,
     lessons: [
@@ -147,7 +165,7 @@ export const courses = [
     id: "10",
     title: "TypeScript for JavaScript Developers",
     description: "Enhance your JavaScript codebase with strong typing using TypeScript. Perfect for React and Node.js devs.",
-    image: "src/assets/coursesImage/typescript.jpeg", 
+    image: typescript, 
     rating : 3.5, 
     price : 799,
     lessons: [
@@ -163,7 +181,7 @@ export const courses = [
     id: "11",
     title: "Git & GitHub Mastery",
     description: "Version control from beginner to expert. Learn to collaborate effectively and manage repositories.",
-    image: "src/assets/coursesImage/github.jpeg", 
+    image: github, 
     rating : 4, 
     price : 999,
     lessons: [
@@ -178,7 +196,7 @@ export const courses = [
     id: "12",
     title: "UI/UX Design Principles",
     description: "Master the essentials of user interface and user experience design with practical real-world guidance.",
-    image: "src/assets/coursesImage/ui-ux.jpeg", 
+    image: design, 
     rating : 3, 
     price : 599,
     lessons: [
@@ -193,7 +211,7 @@ export const courses = [
     id: "13",
     title: "DevOps Essentials",
     description: "Learn the basics of DevOps to automate development processes and improve deployment strategies.",
-    image: "src/assets/coursesImage/devops.jpeg", 
+    image: devops, 
     rating : 4.5, 
     price : 1499,
     lessons: [
@@ -208,7 +226,7 @@ export const courses = [
     id: "14",
     title: "Frontend Performance Optimization",
     description: "Speed up your frontend apps with modern performance optimization techniques and best practices.",
-    image: "src/assets/coursesImage/frontend.jpeg", 
+    image: frontednd, 
     rating : 4, 
     price : 999,
     lessons: [
@@ -223,7 +241,7 @@ export const courses = [
     id: "15",
     title: "GraphQL Fundamentals",
     description: "Build powerful and flexible APIs with GraphQL. Learn schemas, resolvers, and how to use Apollo Client.",
-    image: "src/assets/coursesImage/graph.jpeg", 
+    image: graphql, 
     rating : 4.2, 
     price : 1199,
     lessons: [

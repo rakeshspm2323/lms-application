@@ -4,6 +4,7 @@ import { FaArrowRight, FaStar} from "react-icons/fa";
 const CourseCard = ({ course }) => {
   console.log("course",course);
   const discPrice = Math.floor(course?.price - (course?.price * 0.1));
+  
   return (
   <div className="bg-gray-50 p-5 rounded-xl shadow-md hover:shadow-lg flex flex-col h-auto border border-gray-100 hover:scale-105 transition duration-300 ease-in-out md:mb-0 mb-5">
     <div className="mb-3 relative">
@@ -36,7 +37,7 @@ const CourseCard = ({ course }) => {
         </Link> */}
         <Link
           to={`/course/${course.id}`}
-          className="group relative overflow-hidden w-auto bg-white text-black/70 border px-5 py-2 rounded-full text-base font-medium transition duration-300 ease-in-out shadow-md hover:shadow-lg flex justify-center items-center gap-2"
+          className="group relative overflow-hidden w-auto bg-white text-black/70 border px-5 py-2 rounded-full text-sm font-medium transition duration-300 ease-in-out shadow-md hover:shadow-lg flex justify-center items-center gap-2"
         >
           <span className="relative z-10 transition-colors duration-300 group-hover:text-white">
             View Course

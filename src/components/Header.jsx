@@ -4,6 +4,7 @@ import { Link } from "react-router-dom";
 import { FaUser } from "react-icons/fa";
 // import { useEnrollment } from "../context/EnrollmentContext";
 import Login from "./Login";
+import logo from "/src/assets/logo.png"
 
 const Header = () => {
   // const { login, setLogin } = useEnrollment();
@@ -41,7 +42,7 @@ const Header = () => {
 
       {/* Logo Section */}
       <div className="lg:w-[35%] w-full flex items-center gap-3">
-        <img src="/src/assets/logo.png" alt="" className="w-10 h-9 "/>
+        <img src={logo} alt="" className="w-10 h-9 "/>
         <h2 className="text-xl font-bold bg-[linear-gradient(90deg,#FC466B_0%,#3F5EFB_100%)] bg-clip-text text-transparent">LMS Application</h2>
       </div>
 

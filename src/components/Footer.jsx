@@ -11,6 +11,9 @@ import {
   faLinkedin,
 } from "@fortawesome/free-brands-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import logo from "/src/assets/logo.png";
+import flag from "/src/assets/indian-circle.png";
+import swastik from "/src/assets/swastik.png";
 
 
 const Footer = () => {
@@ -38,7 +41,7 @@ const Footer = () => {
               <h3 className="text-md font-semibold mb-3">Useful Links</h3>
               <ul className="space-y-3 text-sm">
                 <li>
-                  <Link to="#" className="hover:underline text-gray-500 hover:text-gray-700">Support</Link>
+                  <Link to="/courses" className="hover:underline text-gray-500 hover:text-gray-700">All Courses</Link>
                 </li>
                 <li>
                   <Link to="#" className="hover:underline text-gray-500 hover:text-gray-700">Privacy Policy</Link>
@@ -74,7 +77,7 @@ const Footer = () => {
             <div>
               <div className="flex items-center space-x-2">
                 <img
-                  src="/src/assets/logo.png"
+                  src={logo}
                   width={100}
                   height={100}
                   alt="Logo"
@@ -144,14 +147,14 @@ const Footer = () => {
               <img
                 width={80}
                 height={80}
-                src="/src/assets/indian-circle.png"
+                src={flag}
                 className="h-6 w-6 object-cover ml-2"
                 alt="indian flag"
               />
               <img
                 width={80}
                 height={80}
-                src="/src/assets/swastik.png"
+                src={swastik}
                 className="h-6 w-6 object-contain ml-2"
                 alt="swastik"
               />

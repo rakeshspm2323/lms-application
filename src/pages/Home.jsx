@@ -28,16 +28,9 @@ const Home = () => {
                   Engage with interactive lessons, real-world projects, and a supportive community. 
                   Our platform makes it easy to learn, grow, and succeed—on your terms.
                 </p>
-                {/* <Link
-                  to="/courses"
-                  className="bg-[linear-gradient(90deg,#FC466B_0%,#3F5EFB_100%)] text-white px-5 py-2 rounded-md text-base font-medium transition duration-300 ease-in-out hover:brightness-110 hover:shadow-lg mb-5 flex justify-center items-center gap-2"
-                >
-                  Explore Courses 
-                  <FaArrowRight className="text-md" />
-                </Link> */}
                 <Link
                   to="/courses"
-                  className="group relative overflow-hidden w-auto bg-transparent text-black/70 border px-5 py-2 rounded-full text-base font-medium transition duration-300 ease-in-out shadow-md hover:shadow-lg mb-5 flex justify-center items-center gap-2"
+                  className="group relative overflow-hidden w-auto bg-transparent text-black/70 border px-5 py-2 rounded-full text-sm font-medium transition duration-300 ease-in-out shadow-md hover:shadow-lg mb-5 flex justify-center items-center gap-2"
                 >
                   <span className="relative z-10 transition-colors duration-300 group-hover:text-white">
                       Explore All Courses
