@@ -12,10 +12,8 @@ import Faq from "../components/Faq";
 const Home = () => {
   return (
     <>
-      <div className="">
-        <div className="w-full h-[550px] flex relative">
+        <div className="w-full h-[550px] max-h-[600px] flex relative">
           <div className="relative w-full h-full flex">
-            {/* <div className="absolute w-full h-full bg-gradient-to-r from-[#00416A] to-[#20BDFF]"></div> */}
             <div className="absolute w-full h-full bg-[linear-gradient(120deg,_#e0c3fc_0%,_#8ec5fc_100%)]"></div>
           </div>
           <div className="w-full h-full absolute">
@@ -44,30 +42,11 @@ const Home = () => {
             </div>
           </div>
         </div>
-      </div>
-      {/* Hero section end */}
-      <StatusSection />
-      {/* <div className="container-wrapper">
-        <div className="mx-auto p-4 my-5">
-          <div className="flex justify-between items-center mb-5">
-            <h1 className="md:text-2xl text-xl font-bold">Available Courses</h1>
-            <Link
-              to="/courses"
-              className="bg-gradient-to-br from-indigo-500 to-purple-500 text-white md:px-4 px-2 md:py-2 py-1.5 rounded-md text-sm md:text-base font-medium transition duration-300 ease-in-out hover:brightness-110 hover:shadow-lg"
-            >
-              All Courses
-            </Link>
-          </div>
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
-            {courses.slice(0, 6).map((course) => (
-              <CourseCard key={course.id} course={course} />
-            ))}
-          </div>
-        </div>
-      </div> */}
-      <FeaturedCourses />
-      <Journey />
-      <Faq />
+        {/* <HeroSection /> */}
+        <StatusSection />
+        <FeaturedCourses />
+        <Journey />
+        <Faq />
     </>
   );
 };

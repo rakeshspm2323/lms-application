@@ -28,13 +28,6 @@ const CourseCard = ({ course }) => {
             <span className="font-medium text-sm line-through text-gray-500 mt-1">{`₹${course?.price?.toLocaleString("en-IN")}`}</span>
           </h5>
         </div>
-        {/* <Link
-          to={`/course/${course.id}`}
-          className="px-5 py-2 bg-[linear-gradient(90deg,#FC466B_0%,#3F5EFB_100%)] text-white rounded-full shadow-lg hover:bg-brightness-110 text-center transition duration-300 ease-in-out flex justify-center items-center gap-2"
-        >
-          View Course
-          <FaArrowRight className="text-md" />
-        </Link> */}
         <Link
           to={`/course/${course.id}`}
           className="group relative overflow-hidden w-auto bg-white text-black/70 border px-5 py-2 rounded-full text-sm font-medium transition duration-300 ease-in-out shadow-md hover:shadow-lg flex justify-center items-center gap-2"

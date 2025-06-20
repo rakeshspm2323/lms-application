@@ -71,10 +71,10 @@ const CourseDetail = () => {
       <div className="container-wrapper">
         <div className="w-full mx-auto p-4 mb-7">
           <div className="flex flex-col justify-center items-center md:px-5 px-3 mt-7 ">
-            <h2 className="md:text-[36px] text-2xl font-semibold mb-3 bg-[linear-gradient(90deg,#FC466B_0%,#3F5EFB_100%)] bg-clip-text text-transparent md:text-center text-start">
+            <h2 className="md:text-[36px] text-2xl font-semibold mb-3 bg-[linear-gradient(90deg,#FC466B_0%,#3F5EFB_100%)] bg-clip-text text-transparent text-center">
               {course.title}
             </h2>
-            <p className="md:text-md text-sm font-medium text-gray-600 md:text-center text-start w-full md:max-w-2xl md:leading-7 leading-6 mb-5">
+            <p className="md:text-md text-sm font-medium text-gray-600 text-center  w-full md:max-w-2xl md:leading-7 leading-6 mb-5">
               {course.description}
             </p>
             {!isEnrolled ? (
