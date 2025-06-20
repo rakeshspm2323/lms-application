@@ -28,19 +28,19 @@ const Courses = () => {
         <div className="w-full h-full absolute">
           <div className="w-full h-full flex items-center justify-center p-5">
             <div className="w-full flex flex-col justify-center items-center">
-              <h2 className="md:text-[55px] text-[38px] leading-tight capitalize font-bold text-black/70 text-center w-full md:w-2xl">
+              <h2 className="md:text-[55px] text-[38px] leading-tight capitalize font-bold text-gray-100 text-center w-full md:w-2xl">
                 <span className="bg-[linear-gradient(90deg,#FC466B_0%,#3F5EFB_100%)] bg-clip-text text-transparent">
                   Explore All Courses{" "}
                 </span>{" "}
                 Learn Anything, Anytime
               </h2>
-              <p className="my-5 text-md font-medium text-gray-600 text-center w-full md:max-w-xl leading-7">
+              <p className="my-5 text-md font-medium text-gray-100 text-center w-full md:max-w-xl leading-7">
                 Unlock your potential with our full catalog of expertly designed
                 courses. Whether you are looking to upskill, switch careers, or
                 explore a new passion, we have something for everyone. Start
                 learning today and move one step closer to your goals.
               </p>
-              <div className="group relative overflow-hidden w-auto bg-transparent text-black/70 border px-5 py-2 rounded-full text-sm font-semibold transition duration-300 ease-in-out shadow-md hover:shadow-lg mb-5 flex justify-center items-center gap-2">
+              <div className="group relative overflow-hidden w-auto bg-transparent text-gray-100 border px-5 py-2 rounded-full text-sm font-semibold transition duration-300 ease-in-out shadow-md hover:shadow-lg mb-5 flex justify-center items-center gap-2">
                 <span className="relative z-10 transition-colors duration-300 group-hover:text-white">
                   Begin Your Journey
                 </span>
@@ -58,7 +58,7 @@ const Courses = () => {
           <h2 className="md:text-[36px] text-2xl font-semibold mb-3 bg-[linear-gradient(90deg,#FC466B_0%,#3F5EFB_100%)] bg-clip-text text-transparent md:text-center text-start">
             Browse Our Course Collection
           </h2>
-          <p className="md:text-md text-sm font-medium text-gray-600 md:text-center text-start w-full md:max-w-2xl md:leading-7 leading-6">
+          <p className="md:text-md text-base font-medium text-gray-700 md:text-center text-start w-full md:max-w-2xl md:leading-7 leading-6">
             Find the course that's right for you. From tech and business to
             design and personal development, our diverse range of courses is
             curated to help you grow at your own pace. Explore the options below

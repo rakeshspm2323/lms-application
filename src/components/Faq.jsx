@@ -53,7 +53,7 @@ const Faq = () => {
               )}
             </button>
             <div
-              className={`mt-2 text-gray-600 text-sm transition-all duration-300 ease-in-out ${
+              className={`mt-2 text-gray-800 text-sm transition-all duration-300 ease-in-out ${
                 activeIndex === index ? "block" : "hidden"
               }`}
             >

@@ -43,19 +43,19 @@ const CourseDetail = () => {
         <div className="w-full h-full absolute">
           <div className="w-full h-full flex items-center justify-center p-5">
             <div className="w-full flex flex-col justify-center items-center">
-              <h2 className="md:text-[55px] text-[38px] leading-tight capitalize font-bold text-black/70 text-center w-full md:w-2xl">
+              <h2 className="md:text-[55px] text-[38px] leading-tight capitalize font-bold text-gray-100 text-center w-full md:w-2xl">
                 <span className="bg-[linear-gradient(90deg,#FC466B_0%,#3F5EFB_100%)] bg-clip-text text-transparent">
                   Level Up
                 </span>{" "}
                 Your Learning Experience
               </h2>
-              <p className="my-5 text-md font-medium text-gray-600 text-center w-full md:max-w-xl leading-7">
+              <p className="my-5 text-md font-medium text-gray-100 text-center w-full md:max-w-xl leading-7">
                 Explore in-depth, expertly crafted courses designed to boost
                 your skills and confidence. Whether you are diving into a new
                 topic or sharpening your expertise, each course is built to help
                 you succeed in the real world.
               </p>
-              <div className="group relative overflow-hidden w-auto bg-transparent text-black/70 border px-5 py-2 rounded-full text-sm font-semibold transition duration-300 ease-in-out shadow-md hover:shadow-lg mb-5 flex justify-center items-center gap-2">
+              <div className="group relative overflow-hidden w-auto bg-transparent text-gray-100 border px-5 py-2 rounded-full text-sm font-semibold transition duration-300 ease-in-out shadow-md hover:shadow-lg mb-5 flex justify-center items-center gap-2">
                 <span className="relative z-10 transition-colors duration-300 group-hover:text-white">
                   Get Started Today
                 </span>
@@ -74,11 +74,11 @@ const CourseDetail = () => {
             <h2 className="md:text-[36px] text-2xl font-semibold mb-3 bg-[linear-gradient(90deg,#FC466B_0%,#3F5EFB_100%)] bg-clip-text text-transparent text-center">
               {course.title}
             </h2>
-            <p className="md:text-md text-sm font-medium text-gray-600 text-center  w-full md:max-w-2xl md:leading-7 leading-6 mb-5">
+            <p className="md:text-md text-base font-medium text-gray-800 text-center  w-full md:max-w-2xl md:leading-7 leading-6 mb-5">
               {course.description}
             </p>
             {!isEnrolled ? (
-              <div onClick={() => enroll(id)} className="cursor-pointer group relative overflow-hidden w-auto bg-transparent text-black/70 border px-5 py-2 rounded-full text-sm font-semibold transition duration-300 ease-in-out shadow-md hover:shadow-lg mb-5 flex justify-center items-center gap-2">
+              <div onClick={() => enroll(id)} className="cursor-pointer group relative overflow-hidden w-auto bg-transparent text-black/80 border px-5 py-2 rounded-full text-sm font-semibold transition duration-300 ease-in-out shadow-md hover:shadow-lg mb-5 flex justify-center items-center gap-2">
                 <span className="relative z-10 transition-colors duration-300 group-hover:text-white">
                   Enroll Now
                 </span>
@@ -88,7 +88,7 @@ const CourseDetail = () => {
                 <span className="absolute left-0 top-0 h-full w-0 bg-[linear-gradient(90deg,#FC466B_0%,#3F5EFB_100%)] transition-all duration-1000 ease-in-out group-hover:w-full z-0"></span>
               </div>
             ) : (
-              <div className="cursor-pointer group relative overflow-hidden w-auto bg-transparent text-black/70 border px-5 py-2 rounded-full text-sm font-semibold transition duration-300 ease-in-out shadow-md hover:shadow-lg mb-5 flex justify-center items-center gap-2">
+              <div className="cursor-pointer group relative overflow-hidden w-auto bg-transparent text-black/80 border px-5 py-2 rounded-full text-sm font-semibold transition duration-300 ease-in-out shadow-md hover:shadow-lg mb-5 flex justify-center items-center gap-2">
                 <span className="relative z-10 transition-colors duration-300 group-hover:text-white">
                   Continue Learning
                 </span>

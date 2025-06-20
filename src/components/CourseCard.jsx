@@ -10,7 +10,7 @@ const CourseCard = ({ course }) => {
     <div className="mb-3 relative">
       <Link to={`/course/${course.id}`} >
         <img src={course?.image} alt="" className=" w-full h-52 rounded-xl object-cover " />
-        <div className="absolute top-3 right-3 bg-white text-black/70 px-3 py-0.5 rounded-full flex justify-center items-center gap-1 text-sm font-medium">
+        <div className="absolute top-3 right-3 bg-white text-black/80 px-3 py-0.5 rounded-full flex justify-center items-center gap-1 text-sm font-medium">
           {course?.rating} 
           <FaStar className="text-md text-orange-500" />
         </div>
@@ -30,7 +30,7 @@ const CourseCard = ({ course }) => {
         </div>
         <Link
           to={`/course/${course.id}`}
-          className="group relative overflow-hidden w-auto bg-white text-black/70 border px-5 py-2 rounded-full text-sm font-medium transition duration-300 ease-in-out shadow-md hover:shadow-lg flex justify-center items-center gap-2"
+          className="group relative overflow-hidden w-auto bg-white text-black/80 border px-5 py-2 rounded-full text-sm font-medium transition duration-300 ease-in-out shadow-md hover:shadow-lg flex justify-center items-center gap-2"
         >
           <span className="relative z-10 transition-colors duration-300 group-hover:text-white">
             View Course

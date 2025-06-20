@@ -12,23 +12,23 @@ import Faq from "../components/Faq";
 const Home = () => {
   return (
     <>
-        <div className="w-full h-[550px] max-h-[600px] flex relative">
+        <div className="w-full h-[500px] max-h-[550px] flex relative">
           <div className="relative w-full h-full flex">
             <div className="absolute w-full h-full bg-[linear-gradient(120deg,_#e0c3fc_0%,_#8ec5fc_100%)]"></div>
           </div>
           <div className="w-full h-full absolute">
             <div className="w-full h-full flex items-center justify-center p-5">
               <div className="w-full flex flex-col justify-center items-center">
-                <h2 className="md:text-[70px] text-[55px] leading-tight capitalize font-bold text-black/70 text-center w-full md:w-2xl">
+                <h2 className="md:text-[55px] text-[38px] leading-tight capitalize font-bold text-black/80 text-center w-full md:w-2xl">
                   <span className="bg-[linear-gradient(90deg,#FC466B_0%,#3F5EFB_100%)] bg-clip-text text-transparent">Smarter </span> Learning for a Brighter Future
                 </h2>
-                <p className="my-5 md:text-xl text-lg font-medium text-gray-600 text-center w-full md:max-w-xl md:leading-8 leading-7">
+                <p className="my-5 text-md font-medium text-gray-800 text-center w-full md:max-w-xl leading-7">
                   Engage with interactive lessons, real-world projects, and a supportive community. 
                   Our platform makes it easy to learn, grow, and succeed—on your terms.
                 </p>
                 <Link
                   to="/courses"
-                  className="group relative overflow-hidden w-auto bg-transparent text-black/70 border px-5 py-2 rounded-full text-sm font-medium transition duration-300 ease-in-out shadow-md hover:shadow-lg mb-5 flex justify-center items-center gap-2"
+                  className="group relative overflow-hidden w-auto bg-transparent text-black/80 border px-5 py-2 rounded-full text-sm font-medium transition duration-300 ease-in-out shadow-md hover:shadow-lg mb-5 flex justify-center items-center gap-2"
                 >
                   <span className="relative z-10 transition-colors duration-300 group-hover:text-white">
                       Explore All Courses
